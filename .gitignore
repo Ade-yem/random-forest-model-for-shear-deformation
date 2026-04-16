@@ -1,1 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output directory for model results
+rf_outputs/
+
+# Virtual environment
 venv/
+.env/
+
+# Data files (if you don't want to commit the synthetic csv)
+rf_outputs/*.csv
+rf_outputs/*.json
+rf_outputs/*.joblib
+rf_outputs/*.png
